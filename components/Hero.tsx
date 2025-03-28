@@ -7,18 +7,19 @@ const Hero = () => {
     <section id="home" className="relative pt-16 md:pt-24 min-h-[90vh] md:min-h-screen flex items-center">
       {/* Background Video with mobile optimizations */}
       <div className="absolute inset-0 z-0 overflow-hidden">
-        <div className="w-full h-full relative">
-          <Image 
-            src="/images/blackteamphoto.webp"
-            alt="Dental team"
-            fill
-            sizes="100vw"
-            priority
-            className="object-cover"
-          />
-          {/* Overlay - slightly darker for better text readability on mobile */}
-          <div className="absolute inset-0 bg-lapisBlue/60"></div>
-        </div>
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="w-full h-full object-cover"
+          poster="/images/blackteamphoto.webp" // Fallback image while video loads
+        >
+          <source src="/images/istockphoto-1448575679-640_adpp_is.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        {/* Overlay - slightly darker for better text readability on mobile */}
+        <div className="absolute inset-0 bg-lapisBlue/60"></div>
       </div>
 
       {/* Content - improved for mobile */}

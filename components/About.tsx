@@ -90,7 +90,7 @@ const About = () => {
                 Our patients are at the heart of everything we do. We are dedicated to providing personalized, compassionate dental care for every member of your family.
               </p>
               <p className="text-gray-700">
-                If you're looking for an exceptional family dentist in Willingboro, NJ, or Philadelphia, PA, look no further than Amazing Grace Dental Care. You can book your next visit with us online at <a href="http://www.amazinggracedentalcare.com" className="text-lapisBlue hover:text-persimmon transition-colors font-medium">www.amazinggracedentalcare.com</a> or by calling our offices directly. We look forward to meeting you and helping you achieve a healthy, beautiful smile!
+                If you&apos;re looking for an exceptional family dentist in Willingboro, NJ, or Philadelphia, PA, look no further than Amazing Grace Dental Care. You can book your next visit with us online at <a href="http://www.amazinggracedentalcare.com" className="text-lapisBlue hover:text-persimmon transition-colors font-medium">www.amazinggracedentalcare.com</a> or by calling our offices directly. We look forward to meeting you and helping you achieve a healthy, beautiful smile!
               </p>
             </div>
           </div>

@@ -90,7 +90,7 @@ const Services = () => {
         {/* CTA section with mobile optimization */}
         <div className="mt-10 md:mt-12 text-center">
           <p className="text-base sm:text-lg text-gray-700 mb-4 md:mb-6 px-2">
-            At Amazing Dental Care, we're committed to providing comprehensive dental care tailored to your unique needs.
+            At Amazing Dental Care, we&apos;re committed to providing comprehensive dental care tailored to your unique needs.
           </p>
           <button 
             onClick={() => {

@@ -3,7 +3,7 @@
 const Insurance = () => {
   // Removed "Payment Arrangements" as requested
   const insurancePlans = [
-    'ALL PPO\'S',
+    'ALL PPO&apos;S',
     'Horizon New Jersey',
     'United Health Care',
     'Care Credit',

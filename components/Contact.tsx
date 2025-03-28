@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-lapisBlue mb-3 md:mb-4">Contact Us</h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
-            We're here to answer your questions and help you schedule your next dental appointment.
+            We&apos;re here to answer your questions and help you schedule your next dental appointment.
           </p>
         </div>
 

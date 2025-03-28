@@ -15,16 +15,9 @@ const Map = () => {
           {/* New Jersey Location - Mobile optimized */}
           <div className="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
             <div className="h-60 sm:h-72 md:h-80 relative">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.8456667169176!2d-74.89357462346764!3d40.22644307131687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c140a5da8f5619%3A0x9b8b5fa15d2c5c21!2s215%20Sunset%20Rd%20Suite%20308%2C%20Willingboro%2C%20NJ%2008046!5e0!3m2!1sen!2sus!4v1716944058766!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen={false} // Better for mobile performance
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="New Jersey Office Location"
-              ></iframe>
+              <div className="w-full h-full bg-gray-200 flex items-center justify-center">
+                <p className="text-gray-600">Map of Willingboro, NJ Office</p>
+              </div>
             </div>
             <div className="p-4 sm:p-6">
               <h3 className="text-xl sm:text-2xl font-bold text-persimmon mb-1 sm:mb-2">Willingboro, NJ Office</h3>
@@ -47,16 +40,9 @@ const Map = () => {
           {/* Pennsylvania Location - Mobile optimized */}
           <div className="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
             <div className="h-60 sm:h-72 md:h-80 relative">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.845666716918!2d-75.05881492346766!3d40.226443071316836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b3b3e4db0c45%3A0x9c01b88be4ba10b0!2s7439%20Frankford%20Ave%202nd%20floor%2C%20Philadelphia%2C%20PA%2019136!5e0!3m2!1sen!2sus!4v1716944216112!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen={false} // Better for mobile performance
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Pennsylvania Office Location"
-              ></iframe>
+              <div className="w-full h-full bg-gray-200 flex items-center justify-center">
+                <p className="text-gray-600">Map of Philadelphia, PA Office</p>
+              </div>
             </div>
             <div className="p-4 sm:p-6">
               <h3 className="text-xl sm:text-2xl font-bold text-persimmon mb-1 sm:mb-2">Philadelphia, PA Office</h3>

@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        persimmon: "#E05206",
+        dentaWhite: "#FFFFFF",
+        dentalGreen: "#0DB02B",
+        lapisBlue: "#2F6B9A",
       },
     },
   },

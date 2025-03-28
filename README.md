@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Amazing Dental Care Website
+
+A premium, dynamic, and responsive dental website built with Next.js and Tailwind CSS.
+
+## Overview
+
+This project is a modern dental practice website for Amazing Dental Care with locations in New Jersey and Philadelphia. The website showcases the practice's services, insurance options, locations, and more.
+
+## Features
+
+- **Responsive Design:** Fully responsive on mobile, tablet, and desktop devices
+- **Modern UI:** Clean, professional interface with a premium look and feel
+- **Dynamic Components:** Interactive navigation, service cards, and contact forms
+- **Location Maps:** Google Maps integration for both office locations
+- **Video Background:** Dynamic hero section with video background
+- **Service Catalog:** Comprehensive overview of dental services offered
+
+## Technologies Used
+
+- **Next.js:** React framework for production
+- **Tailwind CSS:** Utility-first CSS framework for styling
+- **TypeScript:** Type safety and better developer experience
+- **React Hooks:** For state management and side effects
+
+## Color Scheme
+
+- Persimmon: `#E05206` (224, 82, 6)
+- White: `#FFFFFF` (255, 255, 255)
+- Dark Pastel Green: `#0DB02B` (13, 176, 43)
+- Lapis Lazuli: `#2F6B9A` (47, 107, 154)
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository:
+
+```bash
+git clone https://github.com/your-username/amazing-dental-care.git
+cd amazing-dental-care
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is for demonstration purposes only.
